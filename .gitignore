@@ -1,0 +1,13 @@
+# Local generated outputs (Prevents charts from cluttering your repository)
+output/*.png
+output/*.csv
+
+# Private configuration tracks
+.env
+.DS_Store
+
+# Python runtime cache (Keeps your code workspace clean)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
