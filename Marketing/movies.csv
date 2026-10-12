@@ -1,0 +1,38 @@
+source,report,title,available_globally,release_date,hours_viewed,runtime,views
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Back in Action,Yes,2025-01-17,313000000,1H 54M 0S,164700000
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,STRAW,Yes,2025-06-06,185200000,1H 48M 0S,102900000
+``` *(Add the rest of your movie records below these lines)*
+4. Click **Commit changes...** and confirm.
+5. Click **Add file** -> **Create new file** again.
+6. Name it `Marketing/shows.csv`.
+7. **File Content:** Copy and paste your **TV Show data lines** starting with the header row:
+```csv
+source,report,title,available_globally,release_date,hours_viewed,runtime,views
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Adolescence: Limited Series,Yes,3/13/2025,555100000,3H 50M 0S,144800000
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,"Squid Game: Season 2 // 오징어 게임: 시즌 2",Yes,12/26/2024,840300000,7H 10M 0S,117300000
+``` *(Add the rest of your show records below these lines)*
+8. Click **Commit changes...** and confirm.
+
+#### Step 4: Add Your Script File (`netflix_analytics.py`)
+1. Go back to the main workspace, click **Add file** -> **Create new file**.
+2. Name it exactly `netflix_analytics.py`.
+3. Copy your complete Python code starting with `import os` down to `print("\nAll figures computed and saved to output/")` and paste it into the file box.
+4. Click **Commit changes...** and confirm.
+
+#### Step 5: Add Your `.gitignore` File
+1. Click **Add file** -> **Create new file**.
+2. Name it exactly `.gitignore`.
+3. Paste these lines to keep your public portfolio clean from your local computer runs:
+```text
+# Isolated Outputs
+output/*.png
+output/*.csv
+
+# Local Environment Tracks
+.DS_Store
+.env
+
+# Python Caches
+__pycache__/
+*.pyc
+```
