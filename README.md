@@ -1,5 +1,5 @@
 # Attention Is the Scarcity: A Data-Driven Netflix Content Strategy
-> Certificate in Junior Python Data Analyst — Group Project Portfolio Tracker
+> Certificate in Junior Python Data Analyst — Project Portfolio Tracker
 
 ## 1. Problem and Data Strategy
 Netflix spends roughly ten billion dollars a year on content development. With subscriber growth maturing across primary demographic zones, audience retention—not catalog expansion volume—becomes the fundamental scaling lever. This project addresses a key core question: where does user viewing attention actually originate, and how should slate budgets be reallocated to optimize performance?
