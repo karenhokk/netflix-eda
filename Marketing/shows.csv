@@ -1,11 +1,121 @@
-source,report,title,available_globally,release_date,hours_viewed,runtime,views
-1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Adolescence: Limited Series,Yes,3/13/2025,555100000,3H 50M 0S,144800000
-1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Squid Game: Season 2 // 오징어 게임: 시즌 2,Yes,12/26/2024,840300000,7H 10M 0S,117300000
-1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Squid Game: Season 3 // 오징어 게임: 시즌 3,Yes,6/27/2025,438600000,6H 8M 0S,71500000
-1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Zero Day: Limited Series,Yes,2/20/2025,315800000,5H 9M 0S,61300000
-1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Missing You: Limited Series,Yes,1/1/2025,218600000,3H 46M 0S,58000000
-1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,American Murder: Gabby Petito: Season 1,Yes,2/17/2025,120600000,2H 9M 0S,56100000
-1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Ms. Rachel: Season 1,Yes,NA,162100000,3H 2M 0S,53400000
-1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Sirens: Limited Series,Yes,5/22/2025,252300000,4H 44M 0S,53300000
-1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,The Night Agent: Season 2,Yes,1/23/2025,457800000,8H 36M 0S,53200000
-1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Ginny & Georgia: Season 3,Yes,6/5/2025,508200000,10H 34M 0S,48100000
+source,report,title,available_globally,release_date,hours_viewed,runtime,views,data_scope
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,The Witcher: Season 1,Yes,2019-12-20,118600000,8H 0M 0S,14800000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,CoComelon: Season 4,No,2021-10-14,61200000,2H 51M 0S,21500000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Bridgerton: Season 2,Yes,2022-03-25,57800000,8H 30M 0S,6800000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,The Tailor: Season 3 // Terzi: 3. Sezon,Yes,2023-11-03,56000000,5H 5M 0S,11000000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Sonic Prime: Season 1,Yes,2022-12-15,44300000,3H 43M 0S,11900000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Better Call Saul: Season 6,No,2022-04-19,37600000,11H 37M 0S,3200000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Sleeping Dog: Limited Series // Schlafende Hunde: Miniserie,Yes,2023-06-22,35800000,5H 12M 0S,6900000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Happiness: Limited Series // 해피니스: 리미티드 시리즈,No,,20700000,13H 3M 0S,1600000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Fauda: Season 3 // פאודה: עונה 3,Yes,2020-04-16,13300000,8H 57M 0S,1500000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Chip and Potato: Season 4,No,2022-10-03,12500000,2H 27M 0S,5100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Who Killed Sara?: Season 1 // ¿Quién mató a Sara?: Temporada 1,Yes,2021-03-24,10600000,6H 43M 0S,1600000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,My Perfect Landing: Season 1,No,,9700000,5H 48M 0S,1700000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Rust Valley Restorers: Season 1,Yes,2019-08-23,6300000,5H 48M 0S,1100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Word Party: Season 5,Yes,2021-03-02,5300000,2H 22M 0S,2200000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Flower Crew: Joseon Marriage Agency: Limited Series // 조선혼담공작소 꽃파당: 리미티드 시리즈,No,,5200000,17H 43M 0S,300000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Murderesses: Season 1 // Morderczynie: Season 1,No,,5000000,4H 16M 0S,1200000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Kids Holiday Playlist: Collection,No,,4700000,5H 10M 0S,900000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Marseille: Season 2,Yes,2018-02-23,2900000,5H 54M 0S,500000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,LEGO: City Adventures: Season 4,No,,2300000,4H 1M 0S,600000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,The Magicians (2015): Season 3,No,,2200000,9H 23M 0S,200000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,The Great British Baking Show: Holidays: Season 5,No,2022-11-18,2100000,1H 54M 0S,1100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,No Game No Life: Season 1 // ノーゲーム・ノーライフ: シーズン1,No,,1800000,4H 49M 0S,400000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,"Fresh, Fried & Crispy: Season 1",Yes,2021-06-09,1700000,3H 26M 0S,500000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Only For Love: Season 1 // Só Se For Por Amor: Season 1,Yes,2022-09-21,1500000,6H 24M 0S,200000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Two and a Half Men: Season 1,No,,1100000,8H 20M 0S,100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Rookie Cops: Season 2,No,,1000000,2H 11M 0S,500000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Ratz (2003),No,,800000,9H 39M 0S,100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Terrace House: Opening New Doors: Part 3 // TERRACE HOUSE: オープニング・ニュー・ドアーズ: Part 3,Yes,2018-05-07,700000,5H 10M 0S,100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Karma's World: Season 4,Yes,2022-09-22,500000,1H 45M 0S,300000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,The Island with Bear Grylls: Season 5,No,,400000,4H 41M 0S,100000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Avatar The Last Airbender: Season 1,Yes,2024-02-22,515300000,7H 15M 0S,71100000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Anne with an E: Season 2,Yes,2018-07-06,32600000,7H 21M 0S,4400000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Blood Coast: Season 1 // Pax Massilia: Saison 1,Yes,2023-12-06,24300000,5H 17M 0S,4600000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Clickbait: Limited Series,Yes,2021-08-25,24100000,6H 22M 0S,3800000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Blindspot: Season 1,No,,16800000,16H 1M 0S,1000000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,The I-Land: Limited Series,Yes,2019-09-12,16800000,4H 45M 0S,3500000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,The Boss Baby: Back in the Crib: Season 1,Yes,2022-05-19,15000000,4H 52M 0S,3100000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Anatomy of a Scandal: Limited Series,Yes,2022-04-15,14900000,4H 33M 0S,3300000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Naruto: Season 5 // NARUTO-ナルト-: サスケ奪還編,No,,13900000,11H 10M 0S,1200000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,PLUTO: Season 1,Yes,2023-10-26,11100000,8H 14M 0S,1300000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Heartland (2007): Season 10,No,,10400000,13H 17M 0S,800000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Quicksand: Limited Series // Störst av allt: Miniserie,Yes,2019-04-05,9100000,4H 36M 0S,2000000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Eternal Love: Season 1 // 三生三世十里桃花: 第 1 季,Yes,,8200000,43H 51M 0S,200000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Mech Cadets: Season 1,Yes,2023-08-10,7900000,4H 0M 0S,2000000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Mighty Little Bheem: Season 1,Yes,2019-04-12,7700000,2H 12M 0S,3500000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Paradise PD: Part 3,Yes,2021-03-12,6700000,,1300000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Masha's Tales: Season 1,No,,4800000,2H 50M 0S,1700000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Disjointed: Part 1,No,2017-08-25,3500000,4H 28M 0S,800000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Face Off: Season 4,No,,2400000,7H 43M 0S,300000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Post Mortem: No One Dies in Skarnes: Season 1 // Post Mortem: Ingen dør på Skarnes: Sesong 1,Yes,2021-08-25,1900000,4H 30M 0S,400000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Z Nation: Season 3,No,,1800000,10H 38M 0S,200000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Odd Squad: Season 2,No,,1500000,6H 22M 0S,200000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,My Only Love Song: Season 1 // 마이 온리 러브송: 시즌 1,Yes,2017-06-08,1100000,9H 34M 0S,100000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Scissor Seven: Season 4 // 刺客伍六七: 第 4 季,Yes,2023-09-21,1100000,2H 42M 0S,400000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Lycoris Recoil // リコリス・リコイル: シーズン1,No,,1000000,5H 12M 0S,200000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Recommendations for Solo Live Girls: Season 3 // ソロ活女子のススメ: シーズン3,No,,300000,4H 48M 0S,100000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,The Daily Life of the Immortal King: Season 3 // 仙王的日常生活: 第 3 季,No,,300000,3H 37M 0S,100000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,My Name Is Mo’Nique,No,2023-04-04,200000,1H 16M 0S,200000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Poo Poo in Nature: Season 6 // TV유치원 - 세상의 모든 똥: 시즌6,No,,100000,1H 15M 0S,100000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Ricardo Quevedo: Tomorrow Will Be Worse // Ricardo Quevedo: Mañana será peor,No,2022-08-02,100000,1H 1M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Monk: Season 3,No,,32000000,11H 29M 0S,2800000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Ozark: Season 2,Yes,2018-08-31,23500000,10H 20M 0S,2300000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Alice in Borderland: Season 2 // 今際の国のアリス: シーズン2,Yes,2022-12-22,20600000,8H 31M 0S,2400000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,"Nicky, Ricky, Dicky & Dawn: Season 2",No,,19200000,9H 49M 0S,2000000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Haikyu!! TO THE TOP // ハイキュー!! TO THE TOP,No,,17300000,,1700000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,The OA: Part I,Yes,2016-12-16,15200000,7H 19M 0S,2100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Insatiable: Season 2,Yes,2019-10-11,11600000,7H 28M 0S,1600000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Riverdale: Season 5,No,2021-01-21,10700000,13H 27M 0S,800000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Night and Day: Season 1 // Nit i Dia: Season 1,No,,8000000,11H 44M 0S,700000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Dhevaprom: Dujupsorn: Season 1 // ดวงใจเทวพรหม: ดุจอัปสร: ซีซั่น 1,No,,6300000,17H 50M 0S,400000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Peter Rabbit: Season 1,No,,5100000,11H 23M 0S,400000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Wentworth: Season 2,No,,3100000,9H 11M 0S,300000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Jimmy Savile: A British Horror Story: Limited Series,Yes,2022-04-06,2400000,2H 51M 0S,800000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,The Parkers: Season 5,No,,2400000,6H 37M 0S,400000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Don't Hate the Player: Season 1 // Mauvais joueurs: Saison 1,No,2024-04-17,2300000,7H 1M 0S,300000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Miraculous Brothers: Season 1 // 기적의 형제: 시즌 1,No,,2200000,17H 22M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,The Circle: Season 3,No,2021-09-08,2200000,11H 50M 0S,200000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Dave Chappelle: The Dreamer,No,2023-12-31,2100000,57M 0S,2200000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Poldark (2015): Season 2,No,,2100000,9H 38M 0S,200000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,The Aristocrat’s Otherworldly Adventure: Serving Gods Who Go Too Far: Season 1 // 転生貴族の異世界冒険録～自重を知らない神々の使徒～: シーズン1,No,,1900000,4H 44M 0S,400000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,The Search: Season 1 // Historia de un crimen: La búsqueda: Temporada 1,Yes,2020-06-12,1200000,4H 9M 0S,300000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Gegege no Kitaro: Season 1 (#1-26) // ゲゲゲの鬼太郎 (第5作): 第1部 (#1-26),No,,1100000,10H 1M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Blood Blockade Battlefront // 血界戦線,No,,600000,,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Franco Escamilla: Bienvenido al mundo,No,2019-04-17,600000,54M 0S,700000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Spy Kids: Mission Critical: Season 2,Yes,2018-11-30,600000,,200000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Million Dollar Beach House: Season 1,No,2020-08-26,400000,2H 45M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,My Runway: Season 1 // 마이 런웨이: 시즌 1,Yes,,300000,2H 23M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Letterkenny: Season 10,No,,200000,2H 49M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Mihai Bobonete-Back in Business,No,,100000,47M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Mo Gilligan: There's Mo to Life,No,2022-02-17,100000,1H 6M 0S,100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,The Resident: Season 3,No,,82400000,14H 36M 0S,5600000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Seinfeld: Season 7,Yes,,32400000,9H 6M 0S,3600000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,The Looney Tunes Show: Season 2,No,,27100000,9H 29M 0S,2900000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Power (2014): Season 6,No,,25100000,15H 16M 0S,1600000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,The Office (U.S.): Season 6,No,,25100000,9H 40M 0S,2600000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Henry Danger: Season 5,No,,24800000,15H 5M 0S,1600000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,VINLAND SAGA: Season 2 // ヴィンランド・サガ: シーズン2,No,,14900000,10H 24M 0S,1400000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,I Am Married...But!: Season 1 // 童話故事下集: 第 1 季 // 童话故事下集: 第 1 季,Yes,2025-02-14,13900000,7H 10M 0S,1900000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Bunk'd: Season 2,No,,11700000,8H 1M 0S,1500000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,"Love Is Blind, Habibi: Season 1 // الحب أعمى، حبيبي: موسم 1",No,2024-10-10,9200000,9H 25M 0S,1000000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,A Series of Unfortunate Events: Season 2,Yes,2018-03-30,8200000,7H 37M 0S,1100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Starting 5: Season 1,Yes,2024-10-09,7900000,7H 44M 0S,1000000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,The Clubhouse: A Year with the Red Sox: Season 1,Yes,2025-04-08,7900000,7H 5M 0S,1100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Arrested Development: Season 5,No,2018-05-29,3300000,7H 56M 0S,400000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Insecure: Season 5,No,,2200000,4H 56M 0S,400000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,The Party: Season 1,No,,2200000,2H 16M 0S,1000000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Call of the Night: Season 1 // よふかしのうた: シーズン1,No,,1800000,4H 58M 0S,400000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Trolls: The Beat Goes On!: Season 5,Yes,2019-01-18,1800000,2H 23M 0S,800000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Glow Up: Season 3,No,2021-07-30,1600000,6H 24M 0S,300000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,The Grimm Variations: Season 1 // グリム組曲: シーズン1,Yes,2024-04-17,1400000,4H 12M 0S,300000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Jaguar: Season 1,Yes,2021-09-22,1000000,4H 33M 0S,200000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,New School: Season 1,No,,800000,5H 50M 0S,100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Pinkfong Dance Workout: Season 1 // 핑크퐁과 체조해요(영어): 시즌1,No,,800000,56M 0S,900000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Bibi & Tina (2004): Season 5,No,,600000,3H 2M 0S,200000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Taskmaster (2015): Season 16,No,,600000,7H 39M 0S,100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Pop the Balloon LIVE: I’m Unpoppable,No,2025-05-08,500000,50M 0S,600000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Inspector George Gently: Season 6,No,,400000,5H 54M 0S,100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Bita e o Nosso Mundo 2,No,,100000,31M 0S,200000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Countdown: Paul vs. Tyson: Season 1,Yes,2024-11-07,100000,1H 53M 0S,100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Hannah Gadsby: Nanette,No,2018-06-19,100000,1H 10M 0S,100000,committed_sample
