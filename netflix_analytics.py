@@ -1,8 +1,7 @@
-"""Exploratory charts for the Netflix engagement sample in Marketing/.
+"""Charts for the Netflix sample in Marketing/.
 
-Reads Marketing/movies.csv and Marketing/shows.csv (a fixed sample of the
-public "What We Watched" tables, not the full extract) and writes PNGs to
-output/. See README.md for the sampling rule and the figures this run prints.
+Reads Marketing/movies.csv and Marketing/shows.csv and writes PNGs to output/.
+The sampling notes and the printed figures are in README.md.
 """
 
 import os
@@ -40,7 +39,7 @@ def to_min(value):
 
 
 def prefix_share(hours_desc, fraction):
-    """Share of hours held by the first fraction of a descending series."""
+    """Share of total hours in the top slice of a high-to-low series."""
     count = int(fraction * len(hours_desc))
     if count < 1 or hours_desc.sum() == 0:
         return np.nan
@@ -77,7 +76,7 @@ def main():
     if df.empty:
         raise SystemExit("No rows left after cleaning. Check Marketing/movies.csv and Marketing/shows.csv.")
 
-    # ---- Figure A - distribution ----
+    # Figure A: distribution of hours
     skew = df.hours_M.skew()
     mean_m = df.hours_M.mean()
     median_m = df.hours_M.median()
@@ -95,7 +94,7 @@ def main():
     plt.savefig(os.path.join(OUTPUT_DIR, "chart_skew.png"), dpi=200)
     plt.close()
 
-    # ---- Figure B - outliers ----
+    # Figure B: outliers
     q1, q3 = df.hours_M.quantile([0.25, 0.75])
     fence = q3 + 1.5 * (q3 - q1)
     n_out = int((df.hours_M > fence).sum())
@@ -113,7 +112,7 @@ def main():
     plt.savefig(os.path.join(OUTPUT_DIR, "chart_outliers.png"), dpi=200)
     plt.close()
 
-    # ---- Figure C - global vs regional ----
+    # Figure C: global vs regional
     grouped = df.groupby("available_globally")["hours_M"].agg(["median", "mean", "count"])
     print("\nGlobal vs regional (computed):")
     print(grouped.round(2))
@@ -145,7 +144,7 @@ def main():
         plt.savefig(os.path.join(OUTPUT_DIR, "chart_global.png"), dpi=200)
         plt.close()
 
-    # ---- Figure D - concentration ----
+    # Figure D: concentration
     hours_desc = np.sort(df.hours_viewed.values)[::-1]
     top1 = prefix_share(hours_desc, 0.01)
     top10 = prefix_share(hours_desc, 0.10)
@@ -176,7 +175,7 @@ def main():
     plt.savefig(os.path.join(OUTPUT_DIR, "chart_pareto.png"), dpi=200)
     plt.close()
 
-    # ---- Figure E - correlation ----
+    # Figure E: correlation
     df["runtime_min"] = df["runtime"].apply(to_min)
     df["views"] = pd.to_numeric(df["views"], errors="coerce")
     numeric = df[["hours_viewed", "views", "runtime_min"]].dropna()
@@ -193,7 +192,7 @@ def main():
         plt.savefig(os.path.join(OUTPUT_DIR, "chart_heatmap.png"), dpi=200)
         plt.close()
 
-    # ---- Figure F - report windows ----
+    # Figure F: hours by report window
     trend = df.groupby("report")["hours_viewed"].sum() / 1e9
     trend = trend.reindex([r for r in ["2023Jul-Dec", "2024Jan-Jun", "2024Jul-Dec", "2025Jan-Jun"] if r in trend.index])
     print("\nTotal hours by report window (billions):")
