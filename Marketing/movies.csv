@@ -1,38 +1,161 @@
-source,report,title,available_globally,release_date,hours_viewed,runtime,views
-1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Back in Action,Yes,2025-01-17,313000000,1H 54M 0S,164700000
-1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,STRAW,Yes,2025-06-06,185200000,1H 48M 0S,102900000
-``` *(Add the rest of your movie records below these lines)*
-4. Click **Commit changes...** and confirm.
-5. Click **Add file** -> **Create new file** again.
-6. Name it `Marketing/shows.csv`.
-7. **File Content:** Copy and paste your **TV Show data lines** starting with the header row:
-```csv
-source,report,title,available_globally,release_date,hours_viewed,runtime,views
-1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Adolescence: Limited Series,Yes,3/13/2025,555100000,3H 50M 0S,144800000
-1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,"Squid Game: Season 2 // 오징어 게임: 시즌 2",Yes,12/26/2024,840300000,7H 10M 0S,117300000
-``` *(Add the rest of your show records below these lines)*
-8. Click **Commit changes...** and confirm.
-
-#### Step 4: Add Your Script File (`netflix_analytics.py`)
-1. Go back to the main workspace, click **Add file** -> **Create new file**.
-2. Name it exactly `netflix_analytics.py`.
-3. Copy your complete Python code starting with `import os` down to `print("\nAll figures computed and saved to output/")` and paste it into the file box.
-4. Click **Commit changes...** and confirm.
-
-#### Step 5: Add Your `.gitignore` File
-1. Click **Add file** -> **Create new file**.
-2. Name it exactly `.gitignore`.
-3. Paste these lines to keep your public portfolio clean from your local computer runs:
-```text
-# Isolated Outputs
-output/*.png
-output/*.csv
-
-# Local Environment Tracks
-.DS_Store
-.env
-
-# Python Caches
-__pycache__/
-*.pyc
-```
+source,report,title,available_globally,release_date,hours_viewed,runtime,views,data_scope
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Kung Fu Panda,No,,12200000,1H 34M 0S,7800000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Assassin's Creed,No,,6500000,1H 55M 0S,3400000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Kabhi Khushi Kabhie Gham // कभी खुशी कभी ग़म,No,,5600000,3H 29M 0S,1600000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Yara,Yes,2021-11-05,5000000,1H 37M 0S,3100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,A Kindhearted Christmas,No,,4900000,1H 26M 0S,3400000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,The Departed (2006),No,,4200000,2H 31M 0S,1700000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Green Zone,No,,3900000,1H 55M 0S,2000000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,The Bone Collector,No,,3800000,1H 58M 0S,1900000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,The Hows of Us,No,,2700000,2H 0M 0S,1400000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,F*ck Love Too // F*ck de Liefde 2,Yes,2022-05-20,2600000,1H 33M 0S,1700000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Phenomena // Fenómenas,Yes,2023-04-14,2400000,1H 35M 0S,1500000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Blade of the Immortal // 無限の住人,No,2017-12-29,2100000,2H 22M 0S,900000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,A Week Away,Yes,2021-03-26,1800000,1H 38M 0S,1100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Black Swan,No,,1600000,1H 48M 0S,900000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Gnomeo and Juliet,No,,1400000,1H 24M 0S,1000000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Cásese quien pueda,No,,1300000,1H 47M 0S,700000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,I Am Vanessa Guillen,Yes,2022-11-17,1100000,1H 36M 0S,700000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,My Brothers and I // Mes Frères et moi,No,,1100000,1H 48M 0S,600000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,The Signal (2014),No,,700000,1H 37M 0S,400000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Is That Black Enough for You?!?,Yes,2022-11-11,300000,2H 15M 0S,100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Koniec świata czyli Kogel Mogel 4,No,,300000,1H 31M 0S,200000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Lower City // Cidade Baixa,No,,300000,1H 38M 0S,200000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,The Peanut Butter Falcon,No,,300000,1H 37M 0S,200000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,7-24,No,,200000,1H 22M 0S,100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,"Best Wishes, Warmest Regards: A Schitt's Creek Farewell",No,,200000,44M 0S,300000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Dilan 1991,No,,200000,1H 58M 0S,100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,"Luxembourg, Luxembourg // Люксембург, Люксембург",No,,200000,1H 50M 0S,100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Missing Persons Unit // Vermist,No,,200000,1H 26M 0S,100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Nobody Speak: Trials of the Free Press,Yes,2017-06-23,200000,1H 36M 0S,100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Ramayya Vasthavayya,No,,200000,2H 38M 0S,100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Butterfly // La lengua de las mariposas,No,,100000,1H 32M 0S,100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Disconnect (2018),No,,100000,1H 47M 0S,100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Doraemon the Movie: Nobita and the Animal Planet // 映画ドラえもん のび太とアニマル惑星,No,,100000,1H 40M 0S,100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,"Hello, Privilege. It's Me, Chelsea",Yes,2019-09-13,100000,1H 5M 0S,100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Mr. Boss // 미스터 보스,No,,100000,1H 38M 0S,100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Paddleton,Yes,2019-02-22,100000,1H 29M 0S,100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Quiet Victory: The Charlie Wedemeyer Story,No,,100000,1H 33M 0S,100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Richard the Stork and the Mystery of the Great Jewel,No,,100000,1H 25M 0S,100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,Sobibor // Собибор,No,,100000,1H 55M 0S,100000,committed_sample
+4_What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec,2023Jul-Dec,The Prey // La Proie,No,,100000,1H 45M 0S,100000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Ballerina (2016),No,,19300000,1H 29M 0S,13000000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Howl’s Moving Castle // ハウルの動く城,No,,14500000,2H 0M 0S,7300000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Work It,Yes,2020-08-07,6000000,1H 34M 0S,3800000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,The Queenstown Kings,Yes,2023-11-17,3400000,2H 17M 0S,1500000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Love at First Kiss // Eres tú,Yes,2023-03-03,2500000,1H 36M 0S,1600000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,A Beautiful Mind,No,,2400000,2H 17M 0S,1100000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Cocaine Cowboys 2,No,,2200000,1H 40M 0S,1300000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,The Night Comes for Us,Yes,2018-10-19,2100000,2H 1M 0S,1000000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Darkest Hour (2017),No,,2000000,2H 6M 0S,1000000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,The 40-Year-Old Virgin,No,,1800000,1H 56M 0S,900000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,The Trial of the Chicago 7,Yes,2020-10-16,1800000,2H 10M 0S,800000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Sanju // संजू,No,,1400000,2H 39M 0S,500000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,¿Qué Te Juegas?,No,,1400000,1H 42M 0S,800000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,10 Days of a Bad Man // Kötü Adamın 10 Günü,Yes,2023-08-18,1100000,2H 4M 0S,500000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,"See No Evil, Hear No Evil",No,,1000000,1H 42M 0S,600000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Max Steel (2016),No,,700000,1H 32M 0S,500000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Lagaan // लगान: Once upon a time in India,No,,600000,3H 44M 0S,200000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Alex Strangelove,Yes,2018-06-08,500000,1H 40M 0S,300000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,No Good Deed (2014),No,,500000,1H 24M 0S,400000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,5CM,No,,400000,2H 6M 0S,200000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Mother! (2017),No,,400000,2H 2M 0S,200000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Rowdy Rathore // राउडी राठौर,No,,400000,2H 17M 0S,200000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Black Rose (2018),No,,300000,2H 1M 0S,100000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Crayon Shin-chan the Movie: Action Kamen vs. Leotard Devil // 映画クレヨンしんちゃん アクション仮面 VS ハイグレ魔王,No,,300000,1H 33M 0S,200000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Guilty,Yes,2020-03-06,300000,2H 0M 0S,200000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Hard Lessons,No,,200000,1H 34M 0S,100000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,High School Serenade // Gita Cinta Dari SMA,No,,200000,1H 44M 0S,100000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Just The Way You Are (2016),No,,200000,1H 47M 0S,100000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Kedibone,No,,200000,1H 34M 0S,100000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Strange Way of Life,No,,200000,31M 0S,400000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Super Monsters and the Wish Star,Yes,2018-12-07,200000,28M 0S,400000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,The Accidental Husband,No,,200000,1H 27M 0S,100000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,The German Doctor // Wakolda,No,,200000,1H 34M 0S,100000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Bænken,No,,100000,1H 28M 0S,100000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Ghost Stories (2017),No,,100000,1H 37M 0S,100000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Human Capital (2019),No,,100000,1H 38M 0S,100000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,One Missed Call // 着信アリ,No,,100000,1H 52M 0S,100000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,The Art of the Steal (2013),No,,100000,1H 30M 0S,100000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Unbridled // Animales sin collar,No,,100000,1H 40M 0S,100000,committed_sample
+3_What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun,2024Jan-Jun,Unfair: The End // アンフェア the end,No,,100000,1H 48M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Untold: The Murder of Air McNair,Yes,2024-08-20,16900000,59M 0S,17200000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Spaceman,Yes,2024-03-01,6900000,1H 49M 0S,3800000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Project X (2012),No,,5500000,1H 28M 0S,3700000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,A History of Violence,No,,3500000,1H 36M 0S,2200000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Tag (2018),No,,3500000,1H 41M 0S,2100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Lara Croft Tomb Raider: The Cradle of Life,No,,2500000,1H 58M 0S,1300000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Zombieland: Double Tap,No,,2200000,1H 39M 0S,1300000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,After Ever Happy,No,2022-09-29,2000000,1H 35M 0S,1300000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Closing Dynasty,Yes,,700000,17M 0S,2500000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Feast of the Seven Fishes,No,,600000,1H 39M 0S,400000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Going Varsity in Mariachi,No,,600000,1H 44M 0S,300000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Hot Dog (2018),No,,600000,1H 45M 0S,300000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Paradise Beach,No,2019-11-08,600000,1H 34M 0S,400000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Dear Zoe,No,,500000,1H 34M 0S,300000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Pad Man,No,,500000,2H 10M 0S,200000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Haider // हैदर,No,,400000,2H 39M 0S,200000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,House of Wax,No,,400000,1H 53M 0S,200000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Japan,No,,400000,2H 34M 0S,200000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,The Tax Collector,No,,400000,1H 36M 0S,300000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Villain and Widow // 이층의 악당,No,,400000,1H 56M 0S,200000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Grandma's Last Wishes // El testamento de la abuela,No,2020-12-25,300000,1H 37M 0S,200000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Zero to Hero // 媽媽的神奇小子 // 妈妈的神奇小子,Yes,2021-11-05,300000,1H 43M 0S,200000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,A Good Boy // 양치기,No,,200000,1H 34M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Boogie Nights // 부기나이트,No,,200000,1H 29M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Cats in the Museum,No,,200000,1H 19M 0S,200000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Mean Dreams,No,,200000,1H 45M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Phobia 2 // ห้าแพร่ง,No,,200000,2H 5M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Waking Ned Devine,No,,200000,1H 31M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,A Perfect Enemy,No,,100000,1H 30M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,"Ayotzinapa, el paso de la tortuga",No,,100000,1H 13M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Battle of the Baddest,No,,100000,1H 1M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Carancho,No,,100000,1H 47M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Cold War 2 // 寒戰 II // 寒战 2,No,,100000,1H 50M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Dreamy Eyes // Mắt biếc,No,,100000,1H 57M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Elevator Baby,No,,100000,1H 24M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Full Metal Jacket,No,,100000,1H 57M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Mars: Mimpi Ananda Raih Semesta,No,,100000,1H 43M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,Momshies! Your Soul is Mine // Momshies! Ang Soul Mo'y Akin,No,,100000,1H 49M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,The Invisible Thread // Il filo invisibile,Yes,2022-03-04,100000,1H 50M 0S,100000,committed_sample
+2_What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec,2024Jul-Dec,아이 캔 스피크,No,,100000,1H 59M 0S,100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Jurassic World: Dominion,No,,12900000,2H 27M 0S,5300000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,The Lost City (2022),No,,7500000,1H 52M 0S,4000000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Laapataa Ladies // लापता लेडीज़,Yes,,6800000,2H 4M 0S,3300000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Baby Mama,No,,3600000,1H 39M 0S,2200000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Detective Conan the Movie: The Bride of Halloween // 劇場版 名探偵コナン ハロウィンの花嫁　,No,,3500000,1H 50M 0S,1900000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Extinction (2015),No,,2400000,1H 53M 0S,1300000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,The Redemption of Sin // Tebusan Dosa,Yes,,2400000,1H 56M 0S,1200000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Laal Singh Chaddha // लाल सिंह चड्ढा,Yes,,1800000,2H 38M 0S,700000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Murder Mubarak // मर्डर मुबारक,Yes,2024-03-15,1800000,2H 22M 0S,800000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Back to Black,No,,1400000,2H 2M 0S,700000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Detective Conan : Full Score of Fear // 劇場版 名探偵コナン 戦慄の楽譜,No,,1400000,1H 56M 0S,700000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,"Till Then, Hanna! // Sampai Nanti, Hanna!",No,,1300000,1H 51M 0S,700000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Blippi's Wonderful Talent Show,No,,1200000,1H 20M 0S,900000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Dynasty Warriors // 真三國無雙 // 真·三国无双,No,2021-07-01,1000000,1H 58M 0S,500000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Bis,No,,800000,1H 42M 0S,500000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Chillar Party // चिल्लर पार्टी,No,,800000,2H 7M 0S,400000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,In the Land of Saints and Sinners,No,2024-04-26,800000,1H 46M 0S,500000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Man of God,Yes,2022-04-16,800000,1H 51M 0S,400000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Blade of the 47 Ronin,No,,600000,1H 46M 0S,300000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Aamil Sefer // العميل صفر,No,,500000,1H 48M 0S,300000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,The Imitation Game (2014),No,,500000,1H 54M 0S,300000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Anpanman: Twinkle! Princess Vanilla of Ice Cream Land // 映画 それいけ! アンパンマン きらめけ! アイスの国のバニラ姫,No,,400000,1H 1M 0S,400000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Anora,No,,300000,2H 19M 0S,100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Spotlight (2015),No,,300000,2H 9M 0S,100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,30 for 30: Deion's Double Play,No,,200000,50M 0S,200000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,BoBoiBoy: The Movie,No,,200000,1H 42M 0S,100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,"Caution, Hazardous Wife: The Movie // 劇場版 奥様は、取り扱い注意",No,,200000,2H 0M 0S,100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Doi Boy // ดอยบอย,Yes,2023-11-24,200000,1H 39M 0S,100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,One Summer // Le passager de l'été,No,,200000,1H 37M 0S,100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Seeking a Friend for the End of the World,No,,200000,1H 41M 0S,100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Widows (2018),No,,200000,2H 10M 0S,100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Another Child // 미성년,No,,100000,1H 36M 0S,100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Doraemon the Movie: Nobita and the Castle of the Undersea Devil // 映画ドラえもん のび太の海底鬼岩城,No,,100000,1H 35M 0S,100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Gaby Estrella: O Filme,No,,100000,1H 34M 0S,100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Kara Bela,No,,100000,1H 41M 0S,100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Primos (2011),No,,100000,1H 39M 0S,100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Shooters (2000),No,,100000,1H 11M 0S,100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,"Sí, Mi Amor",No,,100000,1H 47M 0S,100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Tampan Tailor,No,,100000,1H 45M 0S,100000,committed_sample
+1_What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun,2025Jan-Jun,Tucker and Dale vs. Evil,No,,100000,1H 25M 0S,100000,committed_sample
